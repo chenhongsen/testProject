@@ -1,0 +1,345 @@
+
+/*
+@auther:;
+@date:2016/5/15;
+@version:;
+ */
+
+body {
+	margin: 0;
+} 
+
+ul,li {
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol {
+	list-style: none;
+}
+
+/*common*/
+
+.fl{
+	float:left;
+}
+
+.fr{
+	float:right;
+}
+
+.clear::after{
+	content:"";
+	display:block;
+	visibility: hidden;
+	clear:both;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+    margin:0;
+    padding: 0;
+}
+
+/*
+
+ */
+/*
+
+ */
+
+
+
+.header {
+	height: 115px;
+	background: url(../img/header-bg.png) repeat-x 0 0;
+}
+
+.header .header-wrap {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.header .header-wrap .header-top {
+	height: 48px;
+	width:100%;
+	color: #d0cfcf;
+	
+	line-height: 45px;
+
+}
+
+.header-top span{
+    color:#d0cfcf;
+    font-size:14px;
+    margin: 0 10px ;
+    float:right;
+}
+
+.header .header-wrap .header-top a{
+    color: #d0cfcf;
+    text-decoration: none;
+    font-size:14px;
+    float:right;
+    margin: 0 10px
+    
+}
+
+.header .header-wrap .header-top a:hover{
+	color:#ffd200;
+	text-decoration: underline;
+
+}
+
+.header .header-wrap .header-nav {
+	
+	width:100%;
+	float:left;
+	clear:both;
+	line-height: 65px;
+}
+
+.header .header-wrap .header-nav .nav-logo{
+	float:left;
+	width:200px;
+	height:65px;
+	background: url(../img/logo.png) no-repeat;
+	
+}
+
+.header .header-wrap .header-nav  .header-nav-content{
+	height:65px;
+	width:70%;
+    
+    float: right;
+    line-height: 70px;
+
+
+}
+
+.header .header-wrap .header-nav .header-nav-content li{
+	float:left;
+	list-style: none;
+	font-size: 18px;
+	padding: 0 25px;
+}
+
+/*.header-nav-content li:hover{
+	background: #5baae3
+}*/
+
+.header-nav-content a{
+	text-decoration: none;
+	color:#000;
+	transition: all .2s ease-in-out;
+}
+
+.header-nav-content a:hover{
+	color:#ffd200;
+	text-decoration: underline;
+}
+
+.header-nav-content .bg-blue{
+	background: #5baae3;
+}
+.header-nav-content .bg-blue a{
+    color:#fff;
+    transition: all .2s ease-in-out;
+}
+
+.header-nav-content .bg-blue a:hover{
+	color:#ffd200;
+	text-decoration: underline;
+}
+
+
+.nav-bottom{
+	width:1000px;
+	margin:0 auto;
+	height:50px;
+	background:#5baae3;
+	color:#fff;
+	line-height:50px;
+	text-align:center;
+	font-size:14px;
+}
+.nav-bottom span{
+	margin:0 14px;
+}
+
+.nav-bottom a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.nav-bottom a:active{
+	color:#ffd200;
+}
+
+
+.nav-bottom a:hover{
+	color:#ffd200; 
+}
+
+
+
+.mainer{
+	width:1000px;
+	height:680px;
+	
+	margin:10px auto;
+	padding: 0;
+	text-align: center;
+	background: #fff;
+
+
+
+
+
+}
+/*.mainer ul{
+	
+	margin: 0 auto;
+	background: #000;
+	border:solid 2px;
+}*/
+
+.mainer li{
+   display: block;
+   vertical-align:top;
+   width: 240px;
+   height:645px;
+   margin: 0 5px;
+   float:left;
+   margin: 0 5px;
+}
+
+.mainer ul{
+   display: block;
+   vertical-align:top;
+
+}
+.mainer li div{
+	height: 320px;
+	width: 100%;
+	margin-top:15px;
+
+	
+}
+
+.mainer .bg11{
+	background:#f0b49c;
+}
+
+.mainer .bg12{
+	background:#f7d9cd;
+}
+
+.mainer .bg21{
+	background:#9dced4;
+}
+.mainer .bg22{
+	background:#cee6e9;
+}
+.mainer .bg31{
+	background:#e3ce73;
+}
+.mainer .bg32{
+	background:#e3ce73;
+}
+.mainer .bg41{
+	background:#bdde6e;
+}
+.mainer .bg42{
+	background:#deeeb6;
+}
+
+
+.bg11 .figure{	
+	width: 135px;
+	height: 190px;
+	float:left;
+	margin: 12px 50px ;
+	background:url(../img/job-cate.png) no-repeat 0 0;
+}
+
+.bg21 .figure{	
+	width: 135px;
+	height: 190px;
+	float:left;
+	margin: 12px 50px ;
+	background:url(../img/job-cate.png) no-repeat -135px 0;
+}
+.bg31 .figure{	
+	width: 135px;
+	height: 190px;
+	float:left;
+	margin: 12px 50px ;
+	background:url(../img/job-cate.png) no-repeat -270px 0;
+}
+.bg41 .figure{	
+	width: 135px;
+	height: 190px;
+	float:left;
+	margin: 12px 50px ;
+	background:url(../img/job-cate.png) no-repeat -405px 0;
+}
+h3{
+	
+	font-size: 24px;
+	text-align: center;
+	color:#fff;
+	margin:0;
+	
+}
+
+.mainer p{
+	color:#fff;
+	font-size:12px;
+	padding:0 13px;
+	margin:0;
+	text-align: left;
+
+}
+
+.mainer a{
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	float: left;
+	color:#5d5d5d;
+	text-decoration: none;
+	margin:10px 30px;
+}
+
+.mainer .apartment1:hover .figure{
+	width:135px;
+	height:190px;
+	background:url(../img/job-cate.png) no-repeat 0 -190px;
+}
+
+.mainer .apartment2:hover .figure{
+	width:135px;
+	height:190px;
+	background:url(../img/job-cate.png) no-repeat -135px -190px;
+}
+.mainer .apartment3:hover .figure{
+	width:135px;
+	height:190px;
+	background:url(../img/job-cate.png) no-repeat -270px -190px;
+}
+.mainer .apartment4:hover .figure{
+	width:135px;
+	height:190px;
+	background:url(../img/job-cate.png) no-repeat -405px -190px;
+}
+.bg-picture{
+	height:100%;
+	width:100%;
+
+ 	background-size:cover; 
+	background:url(../img/env-bg.png) no-repeat 0 0
+}
